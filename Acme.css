@@ -1,0 +1,142 @@
+*{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+header{
+    background-color:rgb(49, 62, 67);
+    padding: 0;
+    margin: -10px -10px 0 -10px;
+    min-height: 100px;
+    border-bottom: 3px orangered solid;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin:0 14%;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    padding: 10px;
+}
+a{
+    font-size: x-large;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+a:hover{
+    color: orangered;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+}
+em{
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+}
+#on{
+    color: orangered;
+}
+
+
+/*mid portion*/
+.showcase{
+    background-image: url('background1.jpg') ;
+    min-height: 400px;
+    padding: 0;
+    margin: 0px -20px;
+    border-top: 2px crimson solid;
+
+}
+.maindiv{
+    padding: auto;
+    margin: 30px 30px 0 13%;
+}
+h1{
+    color: aliceblue;
+    font: italic;
+    font-size: 4em;
+    display:inline-flex;
+}
+p{
+    font-size: x-large;
+    padding: auto;
+    margin-right: 20%;
+    color: aliceblue;
+}
+.box img{
+    width: 150px;
+}
+.mid{
+    min-height: 30px;
+    background-color: rgb(34, 57, 57);
+    padding: 0;
+    margin: -16px -15px 0 -10px;
+}
+.mid2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 14%;
+}
+input[type='email']{
+    font-size: auto ;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+input[type='button']{
+    font-size: auto ;
+    padding: 5px;
+    margin: 5px;
+    border: 0;
+    background-color: orangered;
+    border-radius: 5px;
+}
+.mid2 h3{
+    font-size: 25px;
+    color: aliceblue;
+}
+
+@media all and (max-width:1000px){
+    .mid2{
+      flex-wrap: wrap;
+    }
+  }
+.box{
+   margin-left: 17%;
+   margin-top: 20px;
+}
+.box1{
+    float: left;
+    width: 25%;
+}
+.box1 h4{
+    text-align:left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box1 p{
+    padding-left: 5px;
+    font-family: cursive;
+    color: #333;
+}
+footer{
+    padding: 0;
+    margin: 0 -10px -10px -10px;
+    min-height: 100px;
+    background-color: orangered;
+}
+footer p{
+    color: aliceblue;
+    font-size: medium;
+    text-align: center;
+    padding: 45px 50px;+
+}

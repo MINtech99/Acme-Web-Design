@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            text-decoration: none;
+            text-align: center;
+        }
+        .clr{
+            clear: both;
+        }
+        header{
+            background-color:rgb(49, 62, 67);
+            padding: 0;
+            margin: -10px -10px 0 -10px;
+            min-height: 100px;
+            border-bottom: 3px orangered solid;
+        }
+        .container2{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 20px;
+            margin:0 14%;
+        }
+        ul{
+            list-style: none;
+        }
+        li{
+            display: inline;
+            padding: 10px;
+        }
+        a{
+            font-size: x-large;
+            color: aliceblue;
+            text-transform: capitalize;
+        }
+        a:hover{
+            color: orangered;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            color: aliceblue;
+        }
+        em{
+            font-family: Arial, Helvetica, sans-serif;
+            color: orangered;
+        }
+        #on{
+            color: orangered;
+        }
+
+        /* subscribe to our newsletter */
+        .navbar{
+            min-height: 90px;
+            background-color:rgb(49, 62, 67);
+            border-top: 1cap orangered solid;
+            margin: 0 -20px;
+        }
+        .navdiv{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 14%;
+            padding-top: 10px;
+        }
+        .navdiv h2{
+            color: aliceblue;
+            text-transform: capitalize;
+        }
+        input[type='email']{
+            background-color: aliceblue;
+            border-radius: 5px;
+            border: 0;
+        }
+        input[type='button']{
+            background-color: orangered;
+            border-radius: 5px;
+            border: 0;
+        }
+        /*about us*/
+        .about{
+            margin: 0 10%;
+        }
+        .para3{
+            width: 30%;
+            float: right ;
+            background-color: rgb(49, 62, 67);
+            padding: 10px;
+            margin-top: 50px;
+        }
+        .para3 p{
+            font-size: x-large;
+            color: aliceblue;
+        }
+        .para3 h5{
+            color: aliceblue;
+            font-size: xx-large;
+            padding: 0;
+            margin: 0;
+        }
+        .para2{
+            background-color: rgb(49, 62, 67);
+            padding: 20px 10px;
+            font-size: large;
+            color: aliceblue;
+        }
+        .para{
+            width: 60%;
+            float: left;
+        }
+        .para p{
+            font-size: x-large;
+        }
+        /*footer*/
+        footer{
+            background-color: orangered;
+            min-height: 100px;
+            margin: 0 -10px;
+        }
+        .copyright p{
+            color: aliceblue;
+            padding-top: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="container2">
+                    <div>
+                        <h1><em>Acme </em> Web Design</h1>
+                    </div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a id="on" href="AcmeAbout.html">about</a></li>
+                        <li><a href="AcmeServices.html">Services</a></li>
+                    </ul>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="navbar">
+            <div class="navdiv">
+                <div>
+                    <h2>Subscribe to our Newsletter</h2>
+                </div>
+                <div>
+                    <input type="email" name="email" id="email" placeholder="enter a valid email">
+                    <input type="button" value="Subscribe">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="about">
+        <div class="para">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, provident molestiae reiciendis facere ipsum accusantium! Nisi facilis, doloribus maiores sint mollitia et blanditiis ducimus repellendus incidunt ea, voluptates nesciunt aspernatur qui. Repellendus ut, earum quaerat, sint sapiente quis vero nulla consequuntur facilis pariatur molestias adipisci repudiandae cum aspernatur. Illum, debitis?</p>
+            <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod molestiae enim consequuntur quas unde natus libero ab numquam ipsa fugit vel, quisquam itaque reprehenderit? Sint esse perferendis, modi ea quasi necessitatibus, culpa tenetur recusandae, saepe dolorem eum blanditiis maxime! Distinctio at ullam quos rerum tenetur veniam adipisci numquam voluptatum.</p>
+        </div>
+        <div class="para3">
+            <h5>what we do</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ea quibusdam odit ullam repudiandae? Nam, praesentium nemo. Pariatur et rerum, cum repudiandae laborum aspernatur maxime, voluptatum ab, nemo dolorem qui earum porro sit sint natus? Voluptates rem cumque molestias, autem excepturi, dolorem nesciunt omnis totam quaerat corrupti aliquid? Fugiat, id.</p>
+        </div>
+    </div>
+    <div class="clr"></div>
+    <footer>
+        <div class="copyright">
+            <p>Acme Web Design,Copyright&copy 2007 <br> -by Mintech</p>
+        </div>
+    </footer>
+</body>
+</html>

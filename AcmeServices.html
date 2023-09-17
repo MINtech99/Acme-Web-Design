@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+               *{
+            text-decoration: none;
+        }
+        .clr{
+            clear: both;
+        }
+        header{
+            background-color:rgb(49, 62, 67);
+            padding: 0;
+            margin: -10px -10px 0 -10px;
+            min-height: 100px;
+            border-bottom: 3px orangered solid;
+        }
+        .container2{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 20px;
+            margin:0 14%;
+        }
+        ul{
+            list-style: none;
+        }
+        li{
+            display: inline;
+            padding: 10px;
+        }
+        a{
+            font-size: x-large;
+            color: aliceblue;
+            text-transform: capitalize;
+        }
+        a:hover{
+            color: orangered;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            color: aliceblue;
+        }
+        em{
+            font-family: Arial, Helvetica, sans-serif;
+            color: orangered;
+        }
+        #on{
+            color: orangered;
+        }
+
+        /* subscribe to our newsletter */
+        .navbar{
+            min-height: 90px;
+            background-color:rgb(49, 62, 67);
+            border-top: 1cap orangered solid;
+            margin: 0 -20px;
+        }
+        .navdiv{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 14%;
+            padding-top: 10px;
+        }
+        .navdiv h2{
+            color: aliceblue;
+            text-transform: capitalize;
+        }
+        input[type='email']{
+            background-color: aliceblue;
+            border-radius: 5px;
+            border: 0;
+        }
+        input[type='button']{
+            background-color: orangered;
+            border-radius: 5px;
+            border: 0;
+        }
+        /*services*/
+        .boxes{
+            width: 55%;
+            float:left;
+            margin:0 0 5% 10% ;
+            background-color: rgb(210, 214, 216);
+        }
+        .box1{
+            padding: 10px;
+            border-bottom: 3px white solid;
+        }
+        .box2{
+            border-bottom: 3px white solid;
+        }
+        .box4{
+            width: 30%;
+            float: right;
+            top: -10px;
+        }
+        h2{
+            margin: 10px 10%;
+            text-align: left;
+        }
+        .boxes p{
+            font-size: large;
+            line-height: 1.2em;
+        }
+        .boxes h3{
+            text-align: left;
+            padding-left: 10px;
+        }
+        .box4{
+            background-color:rgb(49, 62, 67);
+        }
+        .box4 p{
+            padding: 0 10px;
+            margin: 0;
+            color: aliceblue;
+            text-align: left;
+        }
+        .box4 h3{
+            color: white;
+        }
+        .input{
+            padding: 10px;
+        }
+        .textarea{
+            padding: 0 10px;
+        }
+        form input[type='button']{
+            background-color: orangered;
+            padding: 15px;
+            margin: 10px;
+        }
+         /*footer*/
+         footer{
+            background-color: orangered;
+            min-height: 100px;
+            margin: -30px -10px;
+            margin-top: -30px;
+        }
+        .copyright p{
+            text-align: center;
+            color: aliceblue;
+            padding-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="container2">
+                    <div>
+                        <h1><em>Acme </em> Web Design</h1>
+                    </div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="AcmeAbout.html">about</a></li>
+                        <li><a id="on" href="AcmeServices.html">Services</a></li>
+                    </ul>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="navbar">
+            <div class="navdiv">
+                <div>
+                    <h2>Subscribe to our Newsletter</h2>
+                </div>
+                <div>
+                    <input type="email" name="email" id="email" placeholder="enter a valid email">
+                    <input type="button" value="Subscribe">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <h2>Services</h2>
+    <div class="boxes">
+        <div class="box1">
+            <h3>Website Design</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus eaque odio tenetur, perferendis dolore iusto?</p>
+        </div>
+        <div class="box2">
+            <h3>Website Maintenance</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, hic vero laboriosam error voluptatum voluptatem?</p>
+        </div>
+        <div class="box3">
+            <h3>Website Hosting</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit incidunt rem mollitia id officiis ea.</p>
+        </div>
+        </div>
+        <div class="box4">
+            <form action="">
+                <h3>Get a Quote</h3>
+                <div>
+                    <p class="name">Name</p>
+                    <div class="input">
+                      <input type="text" name="name" id="name" placeholder="Enter your name"><br>
+                   </div>
+                </div>
+                <div>
+                    <p class="email">Email</p><br>
+                    <div class="input">
+                       <input type="email" name="email" id="emial" placeholder="Email..."><br>
+                    </div>
+                </div>
+                <div>
+                    <p class="message">Message</p><br>
+                    <div class="textarea">
+                    <textarea name="Message" id="Message" cols="30" rows="3" placeholder="message...."></textarea>
+                </div>
+                </div>
+                <div>
+                    <input type="button" value="Send">
+                </div>
+            </form>
+    </div>
+    <div class="clr"></div>
+    <footer>
+        <div class="copyright">
+            <p>Acme Web Design,Copyright&copy 2007 <br> -by Mintech</p>
+        </div>
+    </footer>
+</body>
+</html>
